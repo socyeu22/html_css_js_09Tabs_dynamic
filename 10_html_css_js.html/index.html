@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        div.img-backgoud {
+            width: 60%;
+            height: 500px;
+            background-image: url('https://svgshare.com/i/_gZ.svg');
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        div.login {
+            border: solid rebeccapurple;
+            position: relative;
+            width: 800px;
+            height: 500px;
+            background-color: rgb(216, 102, 76);
+            margin-top: 100px;
+            margin-left: 30%;
+        }
+        form {
+            width: 40%;
+            position: absolute;
+            top: 0;
+            right: 0;
+            height: 500px;
+            background-color: #ffffff;
+
+        }
+        label {
+            width: 100px;
+            box-sizing: border-box;
+            border: solid red;
+        }
+        input {
+            margin-left: 12px;
+        }
+        div.input {
+            box-sizing: border-box;
+            display: inline-block;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="login">
+        <div class="img-backgoud"></div>
+        <form action="">
+            <h3>Đăng nhập</h3>
+            <p>Bạn đã săn sàng đăng nhập</p>
+            <div class="google-facebook">
+                <div class="google">
+                    <i class="fab fa-google"></i> Đăng nhập bằng google                
+                </div>
+                <div class="facebook">
+                    <i class="fab fa-facebook"></i> Đăng nhập bằng facebook
+                </div>
+            </div>
+                <div class="input">
+                    <label for="username">Username</label>
+                    <input type="text">
+                </div>
+                <div class="input">
+                    <label for="password">Password</label>
+                    <input type="password">
+                </div>
+            <input type="submit">
+        </form>
+    </div>
+</body>
+</html>
